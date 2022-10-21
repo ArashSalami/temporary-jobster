@@ -13,7 +13,7 @@ const SearchContainer = () => {
   const dispatch = useDispatch();
 
   const handleSearchInput = (e) => {
-    if (isLoading) return;
+    // if (isLoading) return;
     const name = e.target.name;
     const value = e.target.value;
     dispatch(handleChange({ name, value }));
